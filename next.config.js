@@ -2,8 +2,7 @@ const path = require("path");
 
 const withPlugins = require("next-compose-plugins");
 const withTM = require("next-transpile-modules");
-const withBundleAnalyzer = require("@zeit/next-bundle-analyzer");
-
+const withBundleAnalyzer = require("@next/bundle-analyzer");
 const analyzeOutPath = path.resolve(process.cwd(), "./bundles");
 
 module.exports = withPlugins([
