@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "analyze": "cross-env BUNDLE_ANALYZE=both yarn build"
   },
   "dependencies": {
     "@dfds-ui/react-components": "^0.0.114",
@@ -18,8 +19,9 @@
   },
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^10.0.17",
-    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "@next/bundle-analyzer": "^9.0.5",
     "babel-plugin-emotion": "^10.0.17",
+    "cross-env": "^5.2.1",
     "file-loader": "^4.2.0",
     "next-compose-plugins": "^2.2.0",
     "next-transpile-modules": "^2.3.1",
