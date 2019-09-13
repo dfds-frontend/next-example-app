@@ -11,5 +11,8 @@
     "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0"
+  },
+  "devDependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2"
   }
 }
