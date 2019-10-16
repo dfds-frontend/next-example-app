@@ -1,5 +1,6 @@
 {
   "name": "next-example-app",
+  "description": "Example add using Next and @dfds-ui/react-components",
   "version": "0.1.0",
   "private": true,
   "scripts": {
