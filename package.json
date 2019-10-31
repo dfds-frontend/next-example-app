@@ -13,19 +13,19 @@
   "dependencies": {
     "@dfds-ui/modal": "^0.0.98",
     "@dfds-ui/react-components": "^0.0.147",
-    "@emotion/core": "^10.0.21",
-    "@emotion/styled": "^10.0.17",
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
     "next": "9.1.1",
     "react": "16.9.0",
-    "react-dates": "^21.0.1",
+    "react-dates": "^21.3.2",
     "react-dom": "16.9.0",
-    "react-select": "^3.0.4"
+    "react-select": "^3.0.8"
   },
   "devDependencies": {
-    "@emotion/babel-preset-css-prop": "^10.0.17",
-    "@next/bundle-analyzer": "^9.1.1",
-    "babel-plugin-emotion": "^10.0.17",
-    "cross-env": "^5.2.1",
+    "@emotion/babel-preset-css-prop": "^10.0.23",
+    "@next/bundle-analyzer": "^9.1.2",
+    "babel-plugin-emotion": "^10.0.23",
+    "cross-env": "^6.0.3",
     "file-loader": "^4.2.0",
     "next-compose-plugins": "^2.2.0",
     "next-transpile-modules": "^2.3.1",
