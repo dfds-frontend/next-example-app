@@ -1,12 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
 import Layout from '../components/layout'
-import { H1, Toast } from '@dfds-ui/react-components'
+import { H1, Toast, Button } from '@dfds-ui/react-components'
+import { Modal } from '@dfds-ui/modal'
 import Content from '../components/content'
 import List from '../components/list'
 
 const Home = () => {
   const [showToast, setShowToast] = React.useState(true)
+  const [showModal, setShowModal] = React.useState(false)
 
   return (
     <Layout>
@@ -16,6 +18,10 @@ const Home = () => {
       <Content>
         <H1>Home</H1>
         {showToast && <Toast onRequestClose={() => setShowToast(false)}>TOAST - close Button should NOT be blue</Toast>}
+        <Button onClick={() => setShowModal(!showModal)}>Click to open modal</Button>
+        <Modal isOpen={showModal} onRequestClose={() => setShowModal(false)}>
+          This is the modal content
+        </Modal>
         <p>This is an example app using the following technologies</p>
         <List>
           <li>

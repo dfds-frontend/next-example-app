@@ -821,29 +821,39 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dfds-ui/colors@^0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@dfds-ui/colors/-/colors-0.0.48.tgz#f9f4882fe4e20aefef48ed586d61a07fc89de40a"
-  integrity sha512-K1+SDhXV6iWQ0UTXssdULCXQ8dJRiUFUfFUnR3j63E3ZTc9YwajBVBP5yruFBYnPjJrhdAnA1una+xoQusyRQw==
+"@dfds-ui/colors@^0.0.52":
+  version "0.0.52"
+  resolved "https://registry.yarnpkg.com/@dfds-ui/colors/-/colors-0.0.52.tgz#75be6c8f1b2f3a79a8512e59a0bb6843b4533114"
+  integrity sha512-DSGCDyH8aR0zcGggMp+EI5Ki7xglmSd+M9Of03JWtJhuaI+Lnh0pmPVklNaAYJF80ODCZD9lNUWRBQkAo5aXWQ==
 
 "@dfds-ui/fonts@^0.0.42":
   version "0.0.42"
   resolved "https://registry.yarnpkg.com/@dfds-ui/fonts/-/fonts-0.0.42.tgz#0b2e05db996289214445612d482b63904977baa5"
   integrity sha512-qeEnXsT1P5GQH5fIaiWKn8/I7nwytoLiGxq/LfVA2Tj0ej8j9HaW3wJQCVqfnyW3l2Nciw/g6nI3GAQy+2rscQ==
 
-"@dfds-ui/icons@^0.0.52":
-  version "0.0.52"
-  resolved "https://registry.yarnpkg.com/@dfds-ui/icons/-/icons-0.0.52.tgz#3fd3a459b662571781c6bbc092e88e45cc6878b6"
-  integrity sha512-KWbH7Qtztt/CqQF1SiW7NRl4V8y4WMBZAWhNZmflLZDNaSCyzXM2LHCMYWVx4R99clpSnZZWMMp4uL0YgeNslQ==
+"@dfds-ui/icons@^0.0.55":
+  version "0.0.55"
+  resolved "https://registry.yarnpkg.com/@dfds-ui/icons/-/icons-0.0.55.tgz#4e0521188c21889d0c10dd64a4c49b5420fe571a"
+  integrity sha512-yijIPYOcITq1Gl9+v+JYBD+KQNz9b87C32ZNwJbjeiGqhtmA9xElnH/8c+OAq3s3oM1AcYEH/AOa5hNGXYSHKg==
 
-"@dfds-ui/react-components@^0.0.139":
-  version "0.0.139"
-  resolved "https://registry.yarnpkg.com/@dfds-ui/react-components/-/react-components-0.0.139.tgz#cd01ff6ddb539ec12cdc762e2cea6c81be352a75"
-  integrity sha512-7e4jSA8HAVSxM0ZEwJ/sK9M/gvoAifDGrQ0vNPd+TBJg0N96zzRGOeF1XNwZA9i8F6xTgW/MIwvzyp33Cuwncw==
+"@dfds-ui/modal@^0.0.98":
+  version "0.0.98"
+  resolved "https://registry.yarnpkg.com/@dfds-ui/modal/-/modal-0.0.98.tgz#9724b487f545e9170c41e3f8e6bce9d9672af4ec"
+  integrity sha512-48iye4oAfEefxH+vo/6vnxW3P/Bovk79ZJQ8EdONfOnpgy/bo161rrymW6vXBWW05S9By/jmibQmfTmQgY/SSg==
   dependencies:
-    "@dfds-ui/colors" "^0.0.48"
+    "@dfds-ui/colors" "^0.0.52"
+    "@dfds-ui/icons" "^0.0.55"
+    "@dfds-ui/react-components" "^0.0.147"
+    react-modal "^3.8.2"
+
+"@dfds-ui/react-components@^0.0.147":
+  version "0.0.147"
+  resolved "https://registry.yarnpkg.com/@dfds-ui/react-components/-/react-components-0.0.147.tgz#3fce233c38e547f39a11d578bdfe5db417dcda23"
+  integrity sha512-+h5Pb3KeDvleIDpnieD6UOIj993bho3yO7SlD4K5aeqhsPADfkHbgRKPoUjECghiVuKaIHOSzZUZKtVx6euunQ==
+  dependencies:
+    "@dfds-ui/colors" "^0.0.52"
     "@dfds-ui/fonts" "^0.0.42"
-    "@dfds-ui/icons" "^0.0.52"
+    "@dfds-ui/icons" "^0.0.55"
     "@kunukn/react-collapse" "^2.2.7"
     "@material-ui/core" "^4.1.0"
     classnames "^2.2.6"
@@ -1076,10 +1086,10 @@
     prop-types "^15.7.2"
     react-is "^16.8.6"
 
-"@next/bundle-analyzer@^9.0.5":
-  version "9.0.5"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.0.5.tgz#439e0b32fd7bb29110cbe47e335c7787e940d2de"
-  integrity sha512-7WjrP/JqRMPoH6S3V3FAzsw+YUZgbdWkGeVF3mWmXvsafJCe4FKt1KGGrP98Zd45AfRf+2EXHwSVNAAkbLYt1A==
+"@next/bundle-analyzer@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.1.1.tgz#77e0cac96615526a3d4f770f0c222e645aaef82f"
+  integrity sha512-Gim3PU0fjkxJYZpPGr4u6YEeml31h8KTXiZkpl+Wrm80Lt/3CW++4EHIrmcwJ038tVF1TpZuSJEj8R22EpEZTQ==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
@@ -2725,6 +2735,11 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
   dependencies:
     md5.js "^1.3.4"
     safe-buffer "^5.1.1"
+
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
 expand-brackets@^2.1.4:
   version "2.1.4"
@@ -5183,7 +5198,7 @@ prop-types-exact@1.2.0, prop-types-exact@^1.2.0:
     object.assign "^4.1.0"
     reflect.ownkeys "^0.2.0"
 
-prop-types@15.7.2, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.7.2, prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5385,10 +5400,20 @@ react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
 
-react-lifecycles-compat@^3.0.4:
+react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-modal@^3.8.2:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.11.1.tgz#2a0d6877c9e98f123939ea92d2bb4ad7fa5a17f9"
+  integrity sha512-8uN744Yq0X2lbfSLxsEEc2UV3RjSRb4yDVxRQ1aGzPo86QjNOwhQSukDb8U8kR+636TRTvfMren10fgOjAy9eA==
+  dependencies:
+    exenv "^1.2.0"
+    prop-types "^15.5.10"
+    react-lifecycles-compat "^3.0.0"
+    warning "^4.0.3"
 
 react-moment-proptypes@^1.6.0:
   version "1.7.0"
@@ -6457,6 +6482,13 @@ vm-browserify@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack@2.0.0-beta.5:
   version "2.0.0-beta.5"
