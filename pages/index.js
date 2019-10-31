@@ -7,7 +7,7 @@ import Content from '../components/content'
 import List from '../components/list'
 
 const Home = () => {
-  const [showToast, setShowToast] = React.useState(true)
+  const [showToast, setShowToast] = React.useState(false)
   const [showModal, setShowModal] = React.useState(false)
 
   return (
@@ -19,7 +19,13 @@ const Home = () => {
         <H1>Home</H1>
         {showToast && <Toast onRequestClose={() => setShowToast(false)}>TOAST - close Button should NOT be blue</Toast>}
         <Button onClick={() => setShowModal(!showModal)}>Click to open modal</Button>
-        <Modal isOpen={showModal} onRequestClose={() => setShowModal(false)}>
+        <Modal
+          isOpen={showModal}
+          onRequestClose={() => {
+            setShowModal(false)
+            setShowToast(true)
+          }}
+        >
           This is the modal content
         </Modal>
         <p>This is an example app using the following technologies</p>
