@@ -1,3 +1,6 @@
+Go to https://github.com/dfds-frontend/dfds-ui-components-nextjs-starter instead.
+
+
 # next-example-app
 
 This is an example app using next.js and @dfds-ui/react-components
